@@ -1,0 +1,70 @@
+.landpage {
+    width:100vw;
+    height:90vh;
+    background-color: rgb(28, 33, 46);
+    margin: 0;
+    padding: 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.goal-circle {
+    margin:0;
+    padding:0;
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.goal-info {
+    margin:0;
+    padding:0;
+    width:50vw;
+}
+
+.goal-circle-style {
+    margin:1vh;
+    width:60vh;
+    height:60vh;
+}
+
+.title {
+    margin:1vh;
+    padding:0;
+    color:white;
+    font-size: 5vh;
+    font-weight: bolder;
+}
+
+.time {
+    margin-bottom:8vh;
+    padding:0;
+    color:white;
+    font-size: 10vh;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-item {
+    margin: 1vh;
+}
+
+input {
+    border-color: transparent;
+    border-radius: 1vh;
+    width:40vh;
+    font-size:5vh;
+    text-align: right; 
+}

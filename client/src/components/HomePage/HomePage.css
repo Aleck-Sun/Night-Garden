@@ -1,0 +1,56 @@
+.home {
+    position:relative;
+    overflow: hidden;
+    width:100vw;
+    height:90vh;
+}
+
+.home-front {
+    position: relative;
+    z-index: 100;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    height:90vh;
+}
+
+.home-text {
+    color:white;
+    width:50vw;
+    margin-top: -1.5vh;
+}
+
+.home-title {
+    font-family: 'Damion', cursive;
+    font-size:12vh;
+    margin-bottom: -2vh;
+    cursor: default;
+    color:white;
+    text-shadow: 0px 0px 7px rgba(255, 255, 255, 0.863);
+}
+
+.home-desc {
+    cursor: default;
+    font-size:2.6vh;
+}
+
+.start-button {
+    font-size:2.6vh;
+    color: white;
+    background:rgb(38, 165, 152);
+    text-decoration: none;
+    padding: 0.7vh 2vh;
+    border-radius: 1vh;
+    font-weight: bolder;
+}
+
+.start-button:hover {
+    color: black;
+    background:rgb(0, 255, 229);
+    transition: all 0.5s ease-out;
+}
+
+.home-demo {
+}
